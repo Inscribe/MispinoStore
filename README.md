@@ -66,6 +66,25 @@ git remote add origin https://github.com/Inscribe/MispinoStore
 
 # 3. Push your code to GitHub
 git push -u origin main
+-------------------------------------------
+Deploy the site using cloudflare worker
+
+To deploy a React site built with Vite to Cloudflare, the recommended approach is using Cloudflare Pages, which integrates perfectly with your GitHub repository and utilizes the Cloudflare Workers infrastructure under the hood.Here are the two ways to handle deployment: using the automatic GitHub integration dashboard or using the wrangler CLI directly.Option A: The Automatic Git Method (Recommended)This approach connects Cloudflare directly to your GitHub repository so that every time you push code, your site automatically updates.Log into your Cloudflare Dashboard.Navigate to Workers & Pages in the left sidebar.Click Create Application > Select the Pages tab > Click Connect to Git.Authenticate your GitHub account and select your my-react-site repository.In the Set up builds and deployments section, use these exact settings:Framework preset: ViteBuild command: npm run buildBuild output directory: distClick Save and Deploy.Cloudflare will compile your project and provide a live production URL ending in .pages.dev.
+
+
+
+
+
+-------------------------------------------
+Hot Module Replacement (HMR)
+This method allows you to use the built-in VS Code Source Control Panel without typing any commands. 
+
+1. Save your file: Press Ctrl + S (Windows/Linux) or Cmd + S (Mac) to save your .js file changes.
+2. Open Source Control: Click the Source Control icon (looks like a branching graph) on the left sidebar, or press Ctrl + Shift + G.
+3. Stage the changes: Find your modified .js file under the Changes section and click the + (Plus) icon next to it to stage it.
+4. Write a commit message: Type a descriptive message (e.g., Update script logic) into the text box at the top of the panel.
+5. Commit the file: Click the Commit button (or the checkmark icon ✓) right above the text box.
+6.Push the changes: Click the blue Sync Changes button, or click the ... (Three Dots) icon next to Source Control and select Push. 
 
 
 
