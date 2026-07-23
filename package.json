@@ -12,6 +12,7 @@
     "vite": "^8.1.1"
   },
   "dependencies": {
+    "@tinymce/tinymce-react": "^6.3.0",
     "tinymce": "^8.8.1"
   }
 }

@@ -69,7 +69,9 @@ git push -u origin main
 -------------------------------------------
 Deploy the site using cloudflare worker
 
-To deploy a React site built with Vite to Cloudflare, the recommended approach is using Cloudflare Pages, which integrates perfectly with your GitHub repository and utilizes the Cloudflare Workers infrastructure under the hood.Here are the two ways to handle deployment: using the automatic GitHub integration dashboard or using the wrangler CLI directly.Option A: The Automatic Git Method (Recommended)This approach connects Cloudflare directly to your GitHub repository so that every time you push code, your site automatically updates.Log into your Cloudflare Dashboard.Navigate to Workers & Pages in the left sidebar.Click Create Application > Select the Pages tab > Click Connect to Git.Authenticate your GitHub account and select your my-react-site repository.In the Set up builds and deployments section, use these exact settings:Framework preset: ViteBuild command: npm run buildBuild output directory: distClick Save and Deploy.Cloudflare will compile your project and provide a live production URL ending in .pages.dev.
+To deploy a React site built with Vite to Cloudflare, the recommended approach is using Cloudflare Pages, which integrates perfectly with your GitHub repository and utilizes the Cloudflare Workers infrastructure under the hood.
+Here are the two ways to handle deployment: using the automatic GitHub integration dashboard or using the wrangler CLI directly.
+Option A: The Automatic Git Method (Recommended)This approach connects Cloudflare directly to your GitHub repository so that every time you push code, your site automatically updates.Log into your Cloudflare Dashboard.Navigate to Workers & Pages in the left sidebar.Click Create Application > Select the Pages tab > Click Connect to Git.Authenticate your GitHub account and select your my-react-site repository.In the Set up builds and deployments section, use these exact settings:Framework preset: ViteBuild command: npm run buildBuild output directory: distClick Save and Deploy.Cloudflare will compile your project and provide a live production URL ending in .pages.dev.
 
 
 
@@ -90,6 +92,9 @@ This method allows you to use the built-in VS Code Source Control Panel without 
 
 
 
+Add WISIWYG Editor
+1. TinyMCE
+To install TinyMCE using npm, navigate to your project directory and run npm install tinymce in your terminal. “To install TinyMCE using NPM, you can run the following command: NPM npm install tinymce@^8” - TinyMCE Documentation📦 Installation OptionsDepending on your project setups and version requirements, you can choose from the following installation scripts:Latest stable version (v8): npm install tinymce@^8Previous version (v7): npm install tinymce@^7Premium plugins package: npm install tinymce-premium@^8.3🛠️ Framework WrappersIf you are using a frontend framework, you should also install the corresponding official wrapper alongside the core package:React: npm install @tinymce/tinymce-react “Navigate to the project directory and install @tinymce/tinymce-react.” - TinyMCE DocumentationAngular: npm install @tinymce/tinymce-angular “Navigate into the project directory and install tinymce-angular .” - TinyMCE DocumentationVue: npm install @tinymce/tinymce-vue
 
 
 
