@@ -35,7 +35,7 @@ document.querySelector('#app').innerHTML = `
       <li>
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
           <img class="button-icon" src="${javascriptLogo}" alt="">
-          Learn more
+          Learn even more
         </a>
       </li>
     </ul>
