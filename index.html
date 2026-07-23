@@ -8,6 +8,17 @@
     <title>decapphonepe</title>
   </head>
   <body>
+
+    <textarea id="my-editor">Hello World!</textarea>
+    <script>
+      tinymce.init({
+      selector: '#my-editor',
+      plugins: 'lists link image table code',
+      toolbar: 'undo redo | blocks | bold italic | alignleft aligncenter alignright | indent outdent'
+      });
+    </script>
+
+
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
