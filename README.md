@@ -94,7 +94,20 @@ This method allows you to use the built-in VS Code Source Control Panel without 
 
 Add WISIWYG Editor
 1. TinyMCE
-To install TinyMCE using npm, navigate to your project directory and run npm install tinymce in your terminal. “To install TinyMCE using NPM, you can run the following command: NPM npm install tinymce@^8” - TinyMCE Documentation📦 Installation OptionsDepending on your project setups and version requirements, you can choose from the following installation scripts:Latest stable version (v8): npm install tinymce@^8Previous version (v7): npm install tinymce@^7Premium plugins package: npm install tinymce-premium@^8.3🛠️ Framework WrappersIf you are using a frontend framework, you should also install the corresponding official wrapper alongside the core package:React: npm install @tinymce/tinymce-react “Navigate to the project directory and install @tinymce/tinymce-react.” - TinyMCE DocumentationAngular: npm install @tinymce/tinymce-angular “Navigate into the project directory and install tinymce-angular .” - TinyMCE DocumentationVue: npm install @tinymce/tinymce-vue
+To install TinyMCE using npm, navigate to your project directory and run npm install tinymce in your terminal. 
+“To install TinyMCE using NPM, you can run the following command: NPM npm install tinymce@^8” 
+- TinyMCE Documentation📦 
+Installation Options
+Depending on your project setups and version requirements, you can choose from the following installation scripts:
+	Latest stable version (v8): npm install tinymce@^8
+	Previous version (v7): npm install tinymce@^7
+	Premium plugins package: npm install tinymce-premium@^8.
+3🛠️ Framework Wrappers
+If you are using a frontend framework, you should also install the corresponding official wrapper alongside the core package:React: npm install @tinymce/tinymce-react 
+“Navigate to the project directory and install @tinymce/tinymce-react.” 
+- TinyMCE DocumentationAngular: npm install @tinymce/tinymce-angular 
+“Navigate into the project directory and install tinymce-angular .” 
+- TinyMCE DocumentationVue: npm install @tinymce/tinymce-vue
 
 
 
